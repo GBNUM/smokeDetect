@@ -1,0 +1,93 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(219, 219, 219);
+}
+.img-cont{
+    gap: 2em
+}
+.body{
+    height: 100vh;
+}
+h1{
+    color: rgb(29, 81, 255);
+    font-weight: 900;
+}
+.add{
+    background-color: rgb(216, 216, 214);
+    position: relative;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+}
+.addp{
+    background-color: white;
+    width:100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.add span p{
+    font-weight: 900;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 1.5em;
+    height: 1.5em;
+    justify-content: center;
+    background-color: rgb(29, 81, 255);
+ 
+    border-radius: 50%
+}
+.cont1{
+    line-height: 1em;
+    margin-top: 7em
+}
+.img-cont img,
+.img-cont div{
+    border: 1px solid;
+}
+
+.form{
+    background-color: white;
+    margin-top: 6em;
+    padding: 1.5em;
+    height: fit-content;
+}
+input{
+    height: 3em;
+}
+.forgot{
+    text-align: center;
+    margin-top: 1em;
+    width: 100%;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(78, 77, 77);
+    border-radius: 0;
+    padding-bottom: 1em
+}
+.create{
+    color: white;
+    font-weight: 900;
+    padding: 1em;
+    background-color: rgb(6, 189, 6);
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .body{
+        flex-direction: column;
+        
+    }
+    h1, h5, p{
+        text-align: center;
+    }
+    body{
+        padding-bottom: 10em
+    }
+}
